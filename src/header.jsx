@@ -4,8 +4,8 @@ import { faShoppingBasket, faSearch, faUser, faCreditCard } from "@fortawesome/f
 
 function Header() {
     return (
-        <div className="text-sm">
-            <div className = "w-full bg-[#01415F]">
+        <div className="text-sm fixed w-full z-[100] top-0 left-0 bg-white">
+            <div className = "bg-[#01415F]">
                 <div  className = "w-[95%] h-10 m-auto flex justify-between text-[#EBEBEB] text-sm">
 
                     <div className="flex w-[325px] h-full items-center">
@@ -23,9 +23,11 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div className="w-[93%] m-auto h-[60px] flex">
+            <div className="w-[93%] m-auto h-[60px] flex ">
                 <div>
-                    <img src="./src/assets/mainLogo.png" alt="" className="w-[110px] " />
+                    <a href="http://localhost:5173/">
+                        <img src="./src/assets/mainLogo.png" alt="" className="w-[110px]" />
+                    </a>
                 </div>
 
                 <div className="h-full p-4 hover:bg-[#f8f9f9] transition duration-[300ms] relative group ">
@@ -100,7 +102,7 @@ function Header() {
                     </ul>
                 </div>
 
-                <div className=" w-36 ml-24 group  transform  pl-[84px] hover:pl-0 h-[60px] hover:bg-[#86D2DA] transition duration-800">
+                <div className=" w-36 ml-40 group  transform  pl-[84px] hover:pl-0 h-[60px] hover:bg-[#86D2DA] transition duration-800">
                     <div className=" w-[60px] h-full bg-[#86D2DA] flex justify-center items-center  transition duration-800" > 
                         <FontAwesomeIcon icon={faCreditCard} className=""/>
                     </div>
