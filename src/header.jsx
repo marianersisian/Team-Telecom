@@ -30,7 +30,7 @@ function Header() {
                     </a>
                 </div>
 
-                <div className="h-full p-4 hover:bg-[#f8f9f9] transition duration-[300ms] relative group ">
+                <div className="h-full p-4 hover:bg-[#f8f9f9] transition duration-[300ms] relative group  ml-2">
                     Սակագներ
                     <ul className="hidden group-hover:block absolute mt-4 -ml-4">
                         <li className=" w-50 bg-[#f8f9f9] border-b cursor-pointer hover:bg-white transition duration-[500ms] p-2">Բջջային կապ</li>
@@ -102,7 +102,7 @@ function Header() {
                     </ul>
                 </div>
 
-                <div className=" w-36 ml-40 group  transform  pl-[84px] hover:pl-0 h-[60px] hover:bg-[#86D2DA] transition duration-800">
+                <div className=" w-36 ml-40 group  transform  pl-[84px] hover:pl-0 h-[60px] hover:bg-[#86D2DA] transition duration-800 cursor-pointer">
                     <div className=" w-[60px] h-full bg-[#86D2DA] flex justify-center items-center  transition duration-800" > 
                         <FontAwesomeIcon icon={faCreditCard} className=""/>
                     </div>

@@ -1,8 +1,8 @@
 import Header from "./header"
 import MainContainer from './mainContainer'
 import ServiceBlock from "./serviceBlock"
-import ProductBox from "./productBox"
 import './App.css'
+import FormBlock from "./formBlock"
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <MainContainer/>
       <ServiceBlock/>
-      <ProductBox/>
+      <FormBlock/>
     </>
   )
 }
