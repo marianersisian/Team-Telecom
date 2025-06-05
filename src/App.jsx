@@ -11,7 +11,7 @@ function App() {
     <>
       <Header/>
       <MainContainer/>
-      
+      <ServiceBlock/>
       <ProductBox/>
     </>
   )
