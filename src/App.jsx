@@ -1,8 +1,9 @@
 import Header from "./header"
+import './App.css'
 import MainContainer from './mainContainer'
 import ServiceBlock from "./serviceBlock"
-import './App.css'
 import FormBlock from "./formBlock"
+import NewsBlock from "./newsBlock"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <MainContainer/>
       <ServiceBlock/>
       <FormBlock/>
+      <NewsBlock/>
     </>
   )
 }
