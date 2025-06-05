@@ -4,6 +4,7 @@ import MainContainer from './mainContainer'
 import ServiceBlock from "./serviceBlock"
 import FormBlock from "./formBlock"
 import NewsBlock from "./newsBlock"
+import AppsBlock from "./appsBlock"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <ServiceBlock/>
       <FormBlock/>
       <NewsBlock/>
+      <AppsBlock/>
     </>
   )
 }
