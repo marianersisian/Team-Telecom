@@ -5,6 +5,7 @@ import ServiceBlock from "./serviceBlock"
 import FormBlock from "./formBlock"
 import NewsBlock from "./newsBlock"
 import AppsBlock from "./appsBlock"
+import Footer from "./footer"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <FormBlock/>
       <NewsBlock/>
       <AppsBlock/>
+      <Footer/>
     </>
   )
 }
