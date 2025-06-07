@@ -13,6 +13,7 @@ export default function App() {
     <>
       <Header/>
       <MainContainer/>
+      <ServiceBlock/>
       <FormBlock/>
       <NewsBlock/>
       <AppsBlock/>
