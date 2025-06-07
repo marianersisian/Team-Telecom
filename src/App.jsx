@@ -1,14 +1,14 @@
-import Header from "./header"
 import './App.css'
-import MainContainer from './mainContainer'
-import ServiceBlock from "./serviceBlock"
-import FormBlock from "./formBlock"
-import NewsBlock from "./newsBlock"
-import AppsBlock from "./appsBlock"
-import Footer from "./footer"
+import Header from "./components/header"
+import Menu from "./components/menus"
+import MainContainer from './components/mainContainer'
+import ServiceBlock from "./components/serviceBlock"
+import FormBlock from "./components/formBlock"
+import NewsBlock from "./components/newsBlock"
+import AppsBlock from "./components/appsBlock"
+import Footer from "./components/footer"
 
-
-function App() {
+export default function App() {
 
   return (
     <>
@@ -22,5 +22,3 @@ function App() {
     </>
   )
 }
-
-export default App
