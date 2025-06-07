@@ -4,7 +4,7 @@ function NewsBlock() {
         <div className="text-center font-bold text-4xl mb-7">
             <h1>Լրահոս</h1>
         </div>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly w-[1260px] m-auto">
             <div className="w-[400px] h-[400px] ">
                 <img src="https://www.telecomarmenia.am/images/news/1/17340092716975.jpeg" alt="" className="w-full h-[73%] rounded-t-2xl" />
                 <div className="bg-[#F8F9F9] border h-[27%] rounded-b-2xl">

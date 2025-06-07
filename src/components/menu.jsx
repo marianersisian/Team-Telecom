@@ -1,5 +1,3 @@
-
-
 export default function Menu ({menuData}) {
     return (
         <>
@@ -7,7 +5,7 @@ export default function Menu ({menuData}) {
                 return (
                     <div  
                     key = {index}
-                    className="h-full p-4 hover:bg-[#f8f9f9] transition duration-[300ms] relative   group  ml-2">
+                    className="h-full p-4 hover:bg-[#f8f9f9] transition duration-[700ms] relative group ml-2">
                         <span>{data.title}</span>
                         <ul className="hidden group-hover:block absolute top-[60px] -ml-4">
                             {data.items.map((item, itemIndex) => {
