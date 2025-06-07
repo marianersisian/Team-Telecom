@@ -7,7 +7,7 @@ function MainContainer() {
                 <div className="font-bold text-lg rounded-3xl bg-[#F04D4D] w-24 h-10 py-1 px-3 cursor-pointer"> <a href="#productInfo">Ավելին</a></div>
             </div>
             <div>
-                <img src="https://www.telecomarmenia.am/images/sliders_block_slides/1/17054704322981.png" alt="" />
+                <img src="https://www.telecomarmenia.am/images/advanced_slider/1/17054709118389.png" alt="" />
             </div>
         </div>
     )
