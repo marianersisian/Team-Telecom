@@ -1,4 +1,4 @@
-import { newsData } from "../data/serviceData"
+import { newsData } from "../data/projectData"
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -29,7 +29,7 @@ export default function NewsBlock() {
                     </SwiperSlide>
                 ))}
             </Swiper>
-            {/* Pagination դիվը պետք է լինի հենց այստեղ, որ Swiper-ը գտնի այն */}
+            
             <div className="w-full h-5 mt-7">
                 <div className="swiper-pagination  flex justify-center gap-2  " />
             </div>

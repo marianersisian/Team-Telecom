@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingBasket, faSearch, faUser } from "@fortawesome/free-solid-svg-icons";
+import {  faSearch, faUser } from "@fortawesome/free-solid-svg-icons";
 import Menus from "./menus"
 import Language from "./language";
 
@@ -12,8 +12,8 @@ export default function Header() {
 
                     <div className="flex w-[325px] h-full items-center">
                         <div className="hover:bg-[#1F5E78] px-5 py-[10px] transition duration-[500ms] cursor-pointer">Անհատներին</div>
-                        <div className="hover:bg-[#1F5E78] px-5 py-[10px] transition duration-[500ms] cursor-pointer">Բիզնես</div>
-                        <div className="hover:bg-[#1F5E78] px-5 py-[10px] transition duration-[500ms] cursor-pointer"><FontAwesomeIcon icon = {faShoppingBasket} className="pr-1"/>E-shop</div>
+                        <div className="hover:bg-[#1F5E78] px-3 py-[10px] transition duration-[500ms] cursor-pointer">Բիզնես</div>
+                        <div className="hover:bg-[#1F5E78] px-5 py-[10px] transition duration-[500ms] cursor-pointer flex"><img src="https://www.telecomarmenia.am/img/eshop-icon.svg" alt="" className="mr-[4px]" />E-shop</div>
                     </div>
                 
                     

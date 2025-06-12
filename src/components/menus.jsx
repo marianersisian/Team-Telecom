@@ -1,75 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
 import Menu from "./menu";
+import { menuData } from "../data/projectData";
 
 export default function Menus() {
-    const menuData = [
-        {
-            title: "Սակագներ",
-            items: [
-            "Բջջային կապ",
-            "Ինտերնետ և TV - ԿՈՍՄՈ",
-            "Ինտերնետ և TV - ԿՈՄԲՈ",
-            "Ֆիքսված հեռախոսակապ"
-            ]
-        },
-        {
-            title: "Ինտերնետ",
-            items: [
-            "Սմարթֆոնի համար",
-            "Տան համար - ԿՈՍՄՈ",
-            "Տան համար - ԿՈՄԲՈ",
-            "Համակարգչի/պլանշետի համար",
-            "Team 4G"
-            ]
-        },
-        {
-            title: "Ծառայություններ",
-            items: [
-            "TeamTV",
-            "Վճարում և համալրում",
-            "Զվարճանք",
-            "Զանգեր և անվտանգություն",
-            "Ֆիքսված հեռախոսակապ"
-            ]
-        },
-        {
-            title: "Ռոումինգ",
-            items: [
-            "Ռոումինգ",
-            "Միջազգային կապ",
-            "Օգտակար տեղեկատվություն",
-            "Ծառայություններ"
-            ]
-        },
-        {
-            title: "Առցանց խանութ",
-            items: [
-            "E-shop",
-            "Առցանց ապառիկ",
-            "Բաժանորդագրություն"
-            ]
-        },
-        {
-            title: "Առաջարկներ",
-            items: [
-            "Շեյքի՛ր և Շահի՛ր",
-            "Team Բոնուս",
-            "Ակցիաներ",
-            "MobiBattle",
-            "GeForce Games"
-            ]
-        },
-        {
-            title: "Օգնություն",
-            items: [
-            "Հաճախ տրվող հարցեր",
-            "Սարքերի կարգավորումներ",
-            "Բաժանորդային սպասարկում",
-            "USSD հրահանգներ և օգտակար համարներ"
-            ]
-        }
-];
+    
     return (
         <>
             <div className="w-[1260px] m-auto h-[60px] flex ">
