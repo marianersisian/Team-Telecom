@@ -52,3 +52,56 @@ export const mainSlidesData = [
     btnText: "Մանրամասն",
   },
 ]
+
+export const newsData = [
+  {
+    date: "12 December",
+    title: "Team Telecom Armenia-ն ապագա ներդրողներին ներկայացրեց Կայուն զարգացման պարտատոմսերը",
+    image: "https://www.telecomarmenia.am/images/news/1/17340092716975.jpeg"
+  },
+  {
+    date: "06 December",
+    title: "Beacon 1.1 արժեքի փոփոխություն",
+    image: "https://www.telecomarmenia.am/images/news/1/17334652618625.png"
+  },
+  {
+    date: "05 December",
+    title: "«Տելեկոմ Արմենիա» ԲԲԸ-ն Հայաստանում առաջինն է թողարկում Կայուն զարգացման պարտատոմսեր",
+    image: "https://www.telecomarmenia.am/images/news/2/17333931457674.jpeg"
+  },
+  {
+    image: "https://www.telecomarmenia.am/images/news/1/17474608108675.png",
+    date: "16 May",
+    title: "Արի՛ ժամանակի միջով ճամփորդելու. Team-ի Կապի թանգարանը միացել է թանգարանային տոներին"
+  },
+  {
+    image: "https://www.telecomarmenia.am/images/news/2/17460160429221.jpeg",
+    date: "30 April",
+    title: "Team Telecom Armenia-ն ընդլայնում է միջազգային գործակցությունը․ ԱՄՆ առաջատար լրատվական ալիք Newsmax-ը կհեռարձակվի Հայաստանում"
+  },
+  {
+    image: "https://www.telecomarmenia.am/images/news/1/174558548876.jpeg",
+    date: "25 April",
+    title: "Ուղղությունը՝ Թիմ․ Team ընկերությունների խումբը Career City Fest-ում սպասում է իր ապագա թիմակիցներին"
+  },
+  {
+    image: "https://www.telecomarmenia.am/images/news/1/17454120971311.jpeg",
+    date: "23 April",
+    title: "Վաճառքի և սպասարկման կենտրոնների աշխատանքային գրաֆիկը ապրիլի 24-ին"
+  },
+  {
+    image: "https://www.telecomarmenia.am/images/news/1/17453080912448.jpeg",
+    date: "22 April",
+    title: "Team-ը հիմնում է 1 հեկտար անտառ Լոռու մարզում"
+  },
+  {
+    image: "https://www.telecomarmenia.am/images/news/1/17447115707507.jpeg",
+    date: "15 April",
+    title: "Ձեռք բեր 1 սմարթֆոն Team-ից, տնկիր 10 ծառ"
+  },
+  {
+    image: "https://www.telecomarmenia.am/images/news/2/17442822957451.png",
+    date: "10 April",
+    title: "Team Telecom Armenia-ն արժանացել է որակի կառավարման միջազգային հավաստագրի"
+  }
+]

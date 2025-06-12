@@ -16,4 +16,10 @@
   @apply w-5 h-5 bg-red-500;
 }
 
+.swiper-pagination .swiper-pagination-bullet {
+  @apply w-3 h-3 bg-[#e3ddd2] hover:bg-[#2c3843] rounded-full  opacity-80 ;
+}
 
+.swiper-pagination .swiper-pagination-bullet-active {
+  @apply w-3 h-3 bg-red-500;
+}
