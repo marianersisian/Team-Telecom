@@ -1,5 +1,5 @@
 import Service from "./service";
-import serviceData from "../data/serviceData";
+import {serviceData} from "../data/serviceData";
 
 export default function ServiceBlock() {
   return (

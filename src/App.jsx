@@ -9,15 +9,15 @@ import Footer from "./components/footer"
 
 export default function App() {
 
-  return (
-    <>
-      <Header/>
-      <MainContainer/>
-      <ServiceBlock/>
-      <FormBlock/>
-      <NewsBlock/>
-      <AppsBlock/>
-      <Footer/>
-    </>
-  )
+    return (
+        <>
+            <Header/>
+            <MainContainer/>
+            <ServiceBlock/>
+            <FormBlock/>
+            <NewsBlock/>
+            <AppsBlock/>
+            <Footer/>
+        </>
+    )
 }

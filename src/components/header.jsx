@@ -23,7 +23,7 @@ export default function Header() {
                         <Language language  = {{
                         am: "Հայ", ru: "Рус", en: "Eng"}} />
             
-                        <div className="cursor-pointer hover:bg-[#1F5E78] hover:border-l border-l-[rgb(89,97,105)] px-5 py-[10px] transition duration-[500ms] "><FontAwesomeIcon className="px-2" icon= {faUser} />Անձնական գրասենյակ</div>
+                        <div className="cursor-pointer hover:bg-[#1F5E78] hover:border-l hover:ml-[-1px] border-l-[rgb(89,97,105)] px-5 py-[10px] transition duration-[500ms] "><FontAwesomeIcon className="pr-2" icon= {faUser} />Անձնական գրասենյակ</div>
                     </div>
                 </div>
             </div>

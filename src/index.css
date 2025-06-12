@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply  text-[#2c3843] font-bold opacity-80;
+}
+
+.my-custom-pagination .swiper-pagination-bullet {
+  @apply w-4 h-4 bg-[#e3ddd2] hover:bg-[#2c3843] rounded-full transition-all;
+}
+
+.my-custom-pagination .swiper-pagination-bullet-active {
+  @apply w-5 h-5 bg-red-500;
+}
+
+
