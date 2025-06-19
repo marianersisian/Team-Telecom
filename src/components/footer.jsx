@@ -1,9 +1,9 @@
 import { FaFacebookF, FaInstagram, FaYoutube, FaPhone, FaEnvelope} from 'react-icons/fa';
-import { footerData } from '../data/projectData';
 
-export default function Footer() {
+export default function Footer({data}) {
   return (
         <> 
+        
             <footer className="bg-[#01415F] text-white py-10 px-6 w-full">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-6">
                 <div>
@@ -29,7 +29,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            {footerData.map(({image, title, items }, index) => (
+            {data.map(({image, title, items }, index) => (
             <div key={index} className='pl-7'>
                 <img src={image} alt="" />
                 <h2 className="text-lg font-semibold my-3">{title}</h2>

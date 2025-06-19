@@ -21,7 +21,6 @@ export const serviceData = [
   }
 ];
 
-
 export const mainSlidesData = [
   {
     src: "https://www.telecomarmenia.am/images/advanced_slider/2/17486286320455.png",

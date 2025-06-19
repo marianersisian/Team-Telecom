@@ -1,15 +1,16 @@
 import Service from "./service";
-import {serviceData} from "../data/projectData";
 
-export default function ServiceBlock() {
+export default function ServiceBlock({data}) {
   return (
     <div className="w-[1260px] m-auto flex flex-wrap gap-x-6  mt-[50px]">
-      {serviceData.map((data, index) => (
+      {data.map((item, index) => (
         <Service
           key={index}
-          title={data.title}
-          image={data.img}
-          width={data.width}
+          title={item.title}
+          decs= {item.decs}
+          btnText= {item.btnText}
+          image={item.img}
+          width={item.width}
         />
       ))}
     </div>

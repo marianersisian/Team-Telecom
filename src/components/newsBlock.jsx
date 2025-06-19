@@ -1,4 +1,3 @@
-import { newsData } from "../data/projectData"
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -6,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination  } from 'swiper/modules';
 import News from "./news";
 
-export default function NewsBlock() {
+export default function NewsBlock({data}) {
     return (
         <>
         <div className="text-center font-bold text-4xl mb-7">
@@ -19,7 +18,7 @@ export default function NewsBlock() {
                 pagination={{el:".swiper-pagination", clickable: true }}
                 className='group'
             >
-                {newsData.map((item, index) => (
+                {data.map((item, index) => (
                     <SwiperSlide key={index}>
                         <News
                             image={item.image}

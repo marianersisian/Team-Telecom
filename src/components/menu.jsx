@@ -1,14 +1,14 @@
-export default function Menu ({menuData}) {
+export default function Menu ({data}) {
     return (
         <>
-            {menuData.map((data, index)  => {
+            {data.map((elem, index)  => {
                 return (
                     <div  
                     key = {index}
                     className="h-full p-4 hover:bg-[#f8f9f9] transition duration-[700ms] relative group ml-2">
-                        <span>{data.title}</span>
+                        <span>{elem.title}</span>
                         <ul className="hidden group-hover:block absolute top-[60px] -ml-4">
-                            {data.items.map((item, itemIndex) => {
+                            {elem.items.map((item, itemIndex) => {
                                 return (
                                     <li 
                                     key = {itemIndex}

@@ -1,13 +1,28 @@
-export default function News({image, date, title}) {
-    return (
-        <>                
-            <div className="w-[400px] h-[400px] ">
-                <img src={image} alt="" className="w-full h-[73%] rounded-t-2xl" />
-                <div className="bg-[#F8F9F9] border h-[27%] rounded-b-2xl">
-                    <span className="text-xs p-4 pt-[15px] text-gray-600">{date}</span>
-                    <p className="px-4">{title}</p>
-                </div>
-            </div>
-        </>
-    )
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart as regularHeart } from "@fortawesome/free-regular-svg-icons";
+import { faHeart as solidHeart } from "@fortawesome/free-solid-svg-icons";
+
+export default function News({ image, date, title }) {
+  const [liked, setLiked] = useState(false);
+
+  return (
+    <div className="w-[400px] h-[400px]">
+      <img src={image} alt="" className="w-full h-[73%] rounded-t-2xl relative" />
+
+      <button
+        onClick={() => setLiked(!liked)}
+        className={` ${
+          liked ? "border-red-500 text-red-500" : "border-red-500 text-white"
+        } transition-colors duration-300 absolute top-4 right-10 text-2xl`}
+      >
+        <FontAwesomeIcon icon={liked ? solidHeart : regularHeart} />
+      </button>
+
+      <div className="bg-[#F8F9F9] border h-[27%] rounded-b-2xl">
+        <span className="text-xs p-4 pt-[15px] text-gray-600">{date}</span>
+        <p className="px-4">{title}</p>
+      </div>
+    </div>
+  );
 }

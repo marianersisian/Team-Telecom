@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
 import Menu from "./menu";
-import { menuData } from "../data/projectData";
 
-export default function Menus() {
+export default function Menus({data}) {
     
     return (
         <>
@@ -12,7 +11,7 @@ export default function Menus() {
                     <img src="https://www.telecomarmenia.am/img/logo.svg?v=1" alt="" className="w-[110px] h-full" />
                 </a>
             
-                <Menu menuData = {menuData}/>
+                <Menu data = {data}/>
 
                 <div className=" w-36  group  transform  pl-[84px] hover:pl-0 h-[60px] hover:bg-[#86D2DA] transition duration-800 cursor-pointer relative -right-[80px]">
                     <div className=" w-[60px] h-full bg-[#86D2DA] flex justify-center items-center  transition duration-800" > 

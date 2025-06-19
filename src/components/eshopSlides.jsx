@@ -3,7 +3,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, Pagination  } from 'swiper/modules';
-import Slides from './mainSlides';
+import EshopMainSlides from '../components/eshopMainSlides';
+ 
 
 
 export default function MainContainer({data}) {
@@ -20,10 +21,7 @@ export default function MainContainer({data}) {
                     className='group'
                 > 
                     {data.map((item, index) => (
-                        <SwiperSlide key = {index}><Slides  
-                            title = {item.title} 
-                            desc = {item.desc} 
-                            btnText = {item.btnText} 
+                        <SwiperSlide key = {index}><EshopMainSlides  
                             src = {item.src} 
                             background = {item.background}   
                         />
