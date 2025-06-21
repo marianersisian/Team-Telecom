@@ -12,7 +12,7 @@ export default function Header({data}) {
                     
                     <div className="flex w-[325px] h-full items-center">
                         <NavLink
-                            to="/privateClients"
+                            to="/"
                             className={({ isActive }) =>
                                 `px-5 py-[10px] transition duration-[500ms] cursor-pointer ${
                                     isActive ? "bg-[#1F5E78]" : "hover:bg-[#1F5E78]"
