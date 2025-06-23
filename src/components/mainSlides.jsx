@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Slides ({title, desc, btnText, src, background}) {
     return (
         <div className=" w-full h-[600px]  mt-[100px] bg-cover bg-center text-2xl font-light  group" style={{backgroundImage: `url(${background})`}}>

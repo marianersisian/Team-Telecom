@@ -4,6 +4,7 @@ import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination  } from 'swiper/modules';
 import News from "./news";
+import React from "react";
 
 export default function NewsBlock({data}) {
     return (

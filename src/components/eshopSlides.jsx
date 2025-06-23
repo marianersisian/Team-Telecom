@@ -4,7 +4,8 @@ import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, Pagination  } from 'swiper/modules';
 import EshopMainSlides from '../components/eshopMainSlides';
- 
+import React from "react";
+
 
 
 export default function MainContainer({data}) {

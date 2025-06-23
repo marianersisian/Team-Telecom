@@ -4,6 +4,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination  } from 'swiper/modules';
+import React from "react";
 
 export default function MobileTariffs({data}) {
     return (

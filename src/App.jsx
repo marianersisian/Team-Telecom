@@ -1,11 +1,12 @@
 import './App.css'
+import React from "react";
 
 import { Routes, Route } from 'react-router-dom'
 
 
-import PrivateClients from "./pages/privateClients";
-import Business from './pages/business';
-import Eshop from './pages/eshop';
+import PrivateClients from "./components/pages/privateClients";
+import Business from './components/pages/business';
+import Eshop from './components/pages/eshop';
 
 
 

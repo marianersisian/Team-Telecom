@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart as regularHeart } from "@fortawesome/free-regular-svg-icons";
 import { faHeart as solidHeart } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 
 export default function News({ image, date, title }) {
   const [liked, setLiked] = useState(false);

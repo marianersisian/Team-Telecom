@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function FormBlock() {
     return (
         <div id = "productInfo" className="w-full h-[260px] bg-[#022739]  text-center text-white p-5 my-7">

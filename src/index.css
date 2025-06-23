@@ -5,8 +5,9 @@
 
 .swiper-button-next,
 .swiper-button-prev {
+  color: #2c3843 !important;
   @apply  text-[#2c3843] font-bold opacity-80;
-}
+}  
 
 .my-custom-pagination .swiper-pagination-bullet {
   @apply w-4 h-4 bg-[#e3ddd2] hover:bg-[#2c3843] rounded-full transition-all;

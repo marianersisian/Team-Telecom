@@ -1,4 +1,5 @@
 import Service from "./service";
+import React from "react";
 
 export default function ServiceBlock({data}) {
   return (

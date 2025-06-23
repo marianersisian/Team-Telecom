@@ -1,4 +1,7 @@
 import { FaFacebookF, FaInstagram, FaYoutube, FaPhone, FaEnvelope} from 'react-icons/fa';
+import React from "react";
+
+
 
 export default function Footer({data}) {
   return (

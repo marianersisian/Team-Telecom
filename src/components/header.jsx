@@ -3,6 +3,7 @@ import { faSearch, faUser } from "@fortawesome/free-solid-svg-icons";
 import Menus from "./menus";
 import Language from "./language";
 import { NavLink } from "react-router-dom";
+import React from "react";
 
 export default function Header({data}) {
     return (
