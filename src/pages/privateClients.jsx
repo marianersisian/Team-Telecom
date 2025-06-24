@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../header"
-import MainContainer from '../mainContainer'
-import ServiceBlock from '../serviceBlock'
-import FormBlock from "../formBlock"
-import NewsBlock from "../newsBlock"
-import AppsBlock from "../appsBlock"
-import Footer from "../footer"
-import ChatBlock from '../chats'
-import { menuData, newsData, mainSlidesData, serviceData, footerData } from "../../data/privateClientsData"
+import Header from "../components/header"
+import MainContainer from '../components/mainContainer'
+import ServiceBlock from '../components/serviceBlock'
+import FormBlock from "../components/formBlock"
+import NewsBlock from "../components/newsBlock"
+import AppsBlock from "../components/appsBlock"
+import Footer from "../components/footer"
+import ChatBlock from '../components/chats'
+import { menuData, newsData, mainSlidesData, serviceData, footerData } from "../data/privateClientsData"
 
 
 export default function PrivateClients() {
