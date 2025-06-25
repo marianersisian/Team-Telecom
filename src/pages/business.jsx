@@ -22,6 +22,7 @@ export default function Business() {
             <MobileTariffs data = {businessTariffData}/>
             <ServiceBlock data = {serviceData}/>
             <ChangeForm />
+            <VirtualBlock/>
             <Footer data = {footerData}/>
         </>
     )
