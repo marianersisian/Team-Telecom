@@ -19,6 +19,7 @@ export default function Business() {
         <> 
             <Header data = {menuData}/>
             <MainContainer data = {mainSlidesData}/>
+            <MobileTariffs data = {businessTariffData}/>
             <ServiceBlock data = {serviceData}/>
             
             <Footer data = {footerData}/>
