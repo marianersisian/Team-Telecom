@@ -21,7 +21,7 @@ export default function Business() {
             <MainContainer data = {mainSlidesData}/>
             <MobileTariffs data = {businessTariffData}/>
             <ServiceBlock data = {serviceData}/>
-            
+            <ChangeForm />
             <Footer data = {footerData}/>
         </>
     )
