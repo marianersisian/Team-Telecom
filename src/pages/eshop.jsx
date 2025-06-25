@@ -14,13 +14,7 @@ import EshopSlides from "../components/eshopSlides"
 export default function Eshop() {
     return (
         <> 
-            <Header data = {menuData}/> 
-            <EshopSlides data = {mainSlidesData}/>
-            {/* <ServiceBlock data = {serviceData}/> */}
-            {/* <FormBlock/> */}
-            {/* <NewsBlock data = { newsData}/> */}
-            {/* <AppsBlock/> */}
-            <Footer data = {footerData}/> 
+             
             
         </>
     )

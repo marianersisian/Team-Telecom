@@ -181,7 +181,7 @@ export const businessTariffData = [
         label: "SMS"
       }
     ],
-    socialApps: [], // Չկան social apps այս օրինակում
+    socialApps: [], 
     btnText: "Մանրամասն"
   },
   {

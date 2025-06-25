@@ -11,15 +11,13 @@ import MobileTariffs from "../components/mobileTariffs"
 import { menuData, footerData } from "../data/privateClientsData"
 import { mainSlidesData, businessTariffData, serviceData } from "../data/businessData"
 
+import ChangeForm from "../components/changeForm"
+import VirtualBlock from "../components/virtualBlock"
 
 export default function Business() {
     return (
         <> 
-            <Header data = {menuData}/>
-            <MainContainer data = {mainSlidesData}/>
-            <MobileTariffs data = {businessTariffData}/>
-            <ServiceBlock data = {serviceData}/>
-            <Footer data = {footerData}/>
+            
         </>
     )
 }

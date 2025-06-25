@@ -8,7 +8,7 @@ export default function ServiceBlock({data}) {
         <Service
           key={index}
           title={item.title}
-          decs= {item.decs}
+          desc= {item.desc}
           btnText= {item.btnText}
           image={item.img}
           width={item.width}
