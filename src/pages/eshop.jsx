@@ -7,15 +7,16 @@ import AppsBlock from "../components/appsBlock"
 import Footer from "../components/footer"
 import ChatBlock from '../components/chats'
 import { menuData, footerData } from "../data/privateClientsData"
-import {  mainSlidesData } from "../data/eshop"
-import EshopSlides from "../components/eshopSlides"
-
+import {  eshopListsData, mainSlidesData } from "../data/eshop"
+import MainContainer from '../components/mainContainer'
+import EshopLists from "../components/eshopLists"
 
 export default function Eshop() {
     return (
         <> 
             <Header data = {menuData}/> 
-            <EshopSlides data = {mainSlidesData}/>
+            <MainContainer data = {mainSlidesData}/>
+            <EshopLists data = {eshopListsData}/>
             {/* <ServiceBlock data = {serviceData}/> */}
             {/* <FormBlock/> */}
             {/* <NewsBlock data = { newsData}/> */}

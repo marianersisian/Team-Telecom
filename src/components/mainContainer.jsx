@@ -34,8 +34,8 @@ export default function MainContainer({data}) {
 
                 <div className="custom-prev "></div>
                 <div className="custom-next "></div>
-                <div className="my-custom-pagination mt-4 flex justify-center gap-2 absolute -mt-[20px] " />
-                </div>
+                <div className="my-custom-pagination mt-4 flex justify-center gap-2 absolute z-100 bottom-10 left-100" />
+            </div>
         </>
     )
 }

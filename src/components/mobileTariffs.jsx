@@ -22,7 +22,7 @@ export default function MobileTariffs({data}) {
                         </div> 
                     <Swiper
                         modules={[Pagination]}
-                        slidesPerView={4}
+                        slidesPerView={3}
                         pagination={{el:".swiper-pagination", clickable: true }}
                         className='group flex justify-evenly items-center '
                     >   

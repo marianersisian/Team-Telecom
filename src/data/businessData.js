@@ -245,3 +245,18 @@ export const serviceData = [
     width: "w-[500px]",
   }
 ];
+
+export const virtualBlockData = [
+  {
+    img: "https://www.telecomarmenia.am/img/virtual-icon-1.png",
+    desc: "Զանգերի բաշխում. ոչ մի բաց թողնված զանգ"
+  },
+  {
+    img: "https://www.telecomarmenia.am/img/virtual-icon-2.png",
+    desc: "Հեռախոսազանգերի ձայնագրություն և զանգերի վիճակագրություն"
+  },
+  {
+    img: "https://www.telecomarmenia.am/img/virtual-icon-3.png",
+    desc: "Ձայնային օգնական հաճախորդների համար"
+  }
+]

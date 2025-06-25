@@ -23,6 +23,20 @@ export const serviceData = [
 
 export const mainSlidesData = [
   {
+    src: "https://www.telecomarmenia.am/images/advanced_slider/2/17498112624368.png",
+    background: "https://www.telecomarmenia.am/images/advanced_slider/2/17498112624592.png",
+    title: "Honor X8c",
+    desc: "Սկսիր ամառը նոր Honor X8c–ով",
+    btnText: "Ավելին",
+  },
+  {
+    src: "https://www.telecomarmenia.am/images/advanced_slider/2/17494512279093.jpeg",
+    background: "https://www.telecomarmenia.am/images/advanced_slider/2/1749451228057.jpeg",
+    title: "Be Free 3500 ",
+    desc: "Անսահմանափակ ինտերնետ",
+    btnText: "Ավելին",
+  },
+  {
     src: "https://www.telecomarmenia.am/images/advanced_slider/2/17486286320455.png",
     background: "https://www.telecomarmenia.am/images/advanced_slider/2/1748628632088.png",
     title: "ԿՈՍՄՈ",

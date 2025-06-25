@@ -1,23 +1,19 @@
-export default function VirtualBlock() {
+import VirtualBlockItem from "./virtualBlockItem";
+import WhiteDetailsButton from "./whiteDetailsButton";
+
+export default function VirtualBlock({data}) {
     return (
         <>
-            <div>Վիրտուալ ԱՀԿ</div>
-            <div>
-                <div>
-                    <img src="https://www.telecomarmenia.am/img/virtual-icon-1.png" alt="" />
-                    <p>Զանգերի բաշխում. ոչ մի բաց թողնված զանգ</p>
+            <div className="w-full h-[570px] bg-[#0A2434] text-white relative flex flex-col gap-16  justify-center items-center">
+                <div className=" bg-[url(https://www.telecomarmenia.am/img/pattern-b2b.png)] w-screen bg-no-repeat h-[330px] m-auto absolute bottom-0"></div>
+                <div className="font-bold text-6xl">Վիրտուալ ԱՀԿ</div>
+                <div className="flex  ">
+                    {data.map((item, index) => (
+                        <VirtualBlockItem img = {item.img} desc = {item.desc} key = {index}/>
+                    ))}
                 </div>
-                <div>
-                    <img src="https://www.telecomarmenia.am/img/virtual-icon-2.png" alt="" />
-                    <p>Հեռախոսազանգերի ձայնագրություն և զանգերի վիճակագրություն</p>
-                </div>
-                <div>
-                    <img src="https://www.telecomarmenia.am/img/virtual-icon-3.png" alt="" />
-                    <p>Ձայնային օգնական հաճախորդների համար</p>
-                </div>
+                <WhiteDetailsButton />
             </div>
-            <div></div>
-            <div></div>
         </>
     )
 }

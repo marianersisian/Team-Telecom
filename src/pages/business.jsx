@@ -9,7 +9,7 @@ import Footer from "../components/footer"
 import ChatBlock from '../components/chats'
 import MobileTariffs from "../components/mobileTariffs"
 import { menuData, footerData } from "../data/privateClientsData"
-import { mainSlidesData, businessTariffData, serviceData } from "../data/businessData"
+import { mainSlidesData, businessTariffData, serviceData, virtualBlockData } from "../data/businessData"
 
 import ChangeForm from "../components/changeForm"
 import VirtualBlock from "../components/virtualBlock"
@@ -22,7 +22,7 @@ export default function Business() {
             <MobileTariffs data = {businessTariffData}/>
             <ServiceBlock data = {serviceData}/>
             <ChangeForm />
-            <VirtualBlock/>
+            <VirtualBlock data = {virtualBlockData}/>
             <Footer data = {footerData}/>
         </>
     )
