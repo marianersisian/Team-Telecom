@@ -17,7 +17,11 @@ import VirtualBlock from "../components/virtualBlock"
 export default function Business() {
     return (
         <> 
+            <Header data = {menuData}/>
+            <MainContainer data = {mainSlidesData}/>
+            <ServiceBlock data = {serviceData}/>
             
+            <Footer data = {footerData}/>
         </>
     )
 }
