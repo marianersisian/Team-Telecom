@@ -14,7 +14,7 @@ export default function Eshop() {
             <Header data = {menuData}/> 
             <MainContainer data = {mainSlidesData}/>
             <EshopLists data = {eshopListsData}/>
-            
+            <EshopProducts data = {productsData}/>
             <Footer data = {footerData}/> 
             
         </>
