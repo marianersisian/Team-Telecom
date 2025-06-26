@@ -12,7 +12,7 @@ export default function VirtualBlock({data}) {
                         <VirtualBlockItem img = {item.img} desc = {item.desc} key = {index}/>
                     ))}
                 </div>
-                <WhiteDetailsButton />
+                <WhiteDetailsButton btnText={"Մանրամասներ"}/>
             </div>
         </>
     )

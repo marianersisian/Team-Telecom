@@ -1,4 +1,3 @@
-import DetailsButton from "./detailsButton";
 import FormInput from "./formInput";
 import JoinButton from "./joinButton";
 

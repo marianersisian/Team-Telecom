@@ -1,14 +1,14 @@
 import React from "react";
-import DetailsButton from "./detailsButton";
-
+import WhiteToRedButton from "./whiteToRedButton";
 
 export default function Tariffs({data}) {
     return (
         <>
-            <div className="w-[290px] h-[330px] flex flex-col relative">
-                <div className=" text-center h-[60px] w-full flex justify-center items-center">
-                    <span className="text-center">{data.title}</span>
-                    <span className="text-center ">{data.price}</span>
+            <div className="w-[270px] h-[420px] flex flex-col relative border  hover:bg-white  pb-[30px] group rounded-md hover:scale-[1.1] transition duration-500 mt-5 bg-[#F3F4F5] ">
+                <div className="bg-[#01415F] w-full h-[20px] rounded-t-md group-hover:rounded-t-md transition duration-500"></div>
+                <div className=" text-center h-[100px] w-full flex flex-col   justify-center  items-center pb-6 border-b group-hover:text-white group-hover:bg-[#01415F] pt-[25px] border-t-none">
+                    <p className="text-center font-bold text-3xl">{data.title}</p>
+                    <p className="text-center font-bold text-4xl">{data.price}</p>
                 </div>
                 <div className=" text-center w-full h-[30px] ">
                 {data.details.map((item, i) => (
@@ -25,8 +25,8 @@ export default function Tariffs({data}) {
                     </div>
                 ))}
                 </div>
-                <div className=" h-[50px] absolute bottom-[40px] left-[70px] flex justify-center">
-                    <DetailsButton btnText={data.btnText}/>
+                <div className=" h-[50px] absolute bottom-[50px] left-[70px] flex justify-center">
+                    <WhiteToRedButton btnText={data.btnText}/>
                 </div>
             </div>
         </>

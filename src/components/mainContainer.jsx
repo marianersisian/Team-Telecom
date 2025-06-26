@@ -18,7 +18,6 @@ export default function MainContainer({data}) {
                     loop={true}
                     navigation={true}
                     pagination={{  el: '.my-custom-pagination', clickable: true }} 
-                    className='group'
                 > 
                     {data.map((item, index) => (
                         <SwiperSlide key = {index}><Slides  
@@ -34,7 +33,7 @@ export default function MainContainer({data}) {
 
                 <div className="custom-prev "></div>
                 <div className="custom-next "></div>
-                <div className="my-custom-pagination mt-4 flex justify-center gap-2 absolute z-100 bottom-10 left-100" />
+                <div className="my-custom-pagination mt-4 flex justify-center gap-2 absolute z-[90] bottom-[40px] left-[630px]" />
             </div>
         </>
     )

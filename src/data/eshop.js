@@ -27,3 +27,81 @@ export const eshopListsData = [
     title: "Աքսեսուարներ",
   }
 ]
+
+export const productsData = [
+  {
+    title: "Honor X8c 6 |",
+    gb: "128 GB",
+    img: "https://www.telecomarmenia.am/images/product/10/17494554435453/245x280c-center.png",
+    price: "86,900 Դ",
+    monthlyPrice: "1,450 Դ/ամիս",
+  },
+  {
+    title: "Apple iPhone 16e | ",
+    gb: "128 GB",
+    img: "https://www.telecomarmenia.am/images/product/9/174126133528/245x280c-center.jpeg",
+    price: "319,900 Դ",
+    monthlyPrice: "5,340 Դ/ամիս",
+
+  },
+  {
+    title: "Honor X9c Smart |",
+    gb: "256 GB",
+    img: "https://www.telecomarmenia.am/images/product/9/17343318782473/245x280c-center.png",
+    price: "104,900 Դ",
+    monthlyPrice: "1,750 Դ/ամիս",
+  },
+  {
+    title: "Samsung A16 |",
+    gb: "128 GB",
+    img: "https://www.telecomarmenia.am/images/product/8/17327054608968/245x280c-center.png",
+    price: "67,900 Դ",
+    monthlyPrice: "1,270 Դ/ամիս",
+  },
+  {
+    title: "Samsung Galaxy S24 FE |",
+    gb: "128 GB",
+    img: "https://www.telecomarmenia.am/images/product/8/17326992102035/245x280c-center.png",
+    price: "231,900 Դ",
+    monthlyPrice: "4,300 Դ/ամիս",
+  },
+  {
+    title: "Samsung A065 |",
+    gb: "64 GB",
+    img: "https://www.telecomarmenia.am/images/product/8/17314952611489/245x280c-center.png",
+    price: "38,900 Դ",
+    monthlyPrice: "720 Դ/ամիս",
+  },
+  {
+    title: "Apple iPhone 16 Pro |",
+    gb: "256 GB",
+    img: "https://www.telecomarmenia.am/images/product/8/17274371969197/245x280c-center.jpeg",
+    price: "531,900 Դ",
+    monthlyPrice: "8,870 Դ/ամիս",
+
+  },
+  {
+    title: "Apple iPhone 16 Pro Max |",
+    gb: "512 GB",
+    img: "https://www.telecomarmenia.am/images/product/8/17274371969197/245x280c-center.jpeg",
+    price: "669,900 Դ",
+    monthlyPrice: "11,170 Դ/ամիս",
+
+  },
+  {
+    title: "Apple iPhone 16 Pro Max |",
+    gb: "256 GB",
+    img: "https://www.telecomarmenia.am/images/product/8/17274326719435/245x280c-center.jpeg",
+    price: "579,900 Դ",
+    monthlyPrice: "9,670 Դ/ամիս",
+
+  },
+{
+    title: "Apple iPhone 16 Plus |",
+    gb: "128 GB",
+    img: "https://www.telecomarmenia.am/images/product/8/17274167988841/245x280c-center.jpeg",
+    price: "420,900 Դ",
+    monthlyPrice: "7,020 Դ/ամիս",
+
+  }
+]
