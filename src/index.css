@@ -24,3 +24,15 @@
 .swiper-pagination .swiper-pagination-bullet-active {
   @apply w-3 h-3 bg-red-500;
 }
+
+ .swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  opacity: 1;
+  margin: 0 4px;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f04d4d !important;
+}

@@ -105,3 +105,85 @@ export const productsData = [
 
   }
 ]
+
+export const mobileNumber = [
+  {
+    title: "Պլատին",
+    mobileNumber: "099 27 66 66",
+    firstPrice: "140,000 Դ",
+    discountPrice: "112,000 Դ"
+  },
+  {
+    title: "Պլատին",
+    mobileNumber: "091 25 66 66",
+    firstPrice: "140,000 Դ",
+    discountPrice: "112,000 Դ"
+  },
+  {
+    title: "Ոսկի",
+    mobileNumber: "096 44 99 22",
+    firstPrice: "50,000 Դ",
+    discountPrice: "48,000 Դ"
+  },
+  {
+    title: "Ոսկի",
+    mobileNumber: "096 44 02 22",
+    firstPrice: "50,000 Դ",
+    discountPrice: "48,000 Դ"
+  },
+  {
+    title: "Ոսկի",
+    mobileNumber: "096 44 11 99",
+    firstPrice: "50,000 Դ",
+    discountPrice: "48,000 Դ"
+  },
+  {
+    title: "Ոսկի",
+    mobileNumber: "096 44 03 33",
+    firstPrice: "50,000 Դ",
+    discountPrice: "48,000 Դ"
+  },
+  {
+    title: "Նիկել",
+    mobileNumber: "096 14 02 07",
+    firstPrice: "2,088 Դ",
+    discountPrice: "1,600 Դ"
+  },
+  {
+    title: "Պլատին",
+    mobileNumber: "099 68 33 33",
+    firstPrice: "140,680 Դ",
+    discountPrice: "112,000 Դ"
+  }
+];
+
+export const serviceData = [
+  {
+    title: "Պարզ և հարմար",
+    desc: "Գնիր ոնց հարմար է Քեզ համար",
+    btnText: "Գնել",
+    img: "https://www.telecomarmenia.am/images/promo/1/16509756564861.png",
+    width: "w-[590px]",
+  },
+  {
+    title: "Առաքման պայմաններ",
+    desc: "Առաքում Հայաստանի ողջ տարածքում",
+    btnText: "Մանրամասն",
+    img: "https://www.telecomarmenia.am/images/promo/1/16509757089642.png",
+    width: "w-[590px]",
+  },
+  {
+    title: "Առցանց ապառիկ",
+    desc: "Ի՞նչ է այն և ո՞նց է աշխատում",
+    btnText: "Մանրամասն",
+    img: "https://www.telecomarmenia.am/images/promo/1/16509758156906.png",
+    width: "w-[680px]",
+  },
+  {
+    title: "Ապառիկի պայմաններ",
+    desc: "Լավագույն պայմաները Team-ից",
+    btnText: "Մանրամասն",
+    img: "https://www.telecomarmenia.am/images/promo/1/16509757444797.png ",
+    width: "w-[500px]",
+  }
+]

@@ -1,34 +1,49 @@
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
-import EshopProduct from "./eshopProduct";
+import { Autoplay, Pagination } from 'swiper/modules'; // ✅ ճիշտ ուղի
 import React from 'react';
-import EshopProductDetails from './eshopProductDetails';
+import EshopProduct from './eshopProduct';
 
 export default function EshopProducts({ data }) {
     return (
-        <div className='w-[1200px] h-[800px] m-auto relative  pl-[100px] '>
+        <div className='w-[1200px] h-[800px] m-auto relative pl-[100px] mb-[100px]'>
             <Swiper
                 modules={[Autoplay, Pagination]}
                 slidesPerView={3}
+                spaceBetween={30}
                 autoplay={{ delay: 2000 }}
                 loop={true}
-                pagination={{ el: '.my-custom-pagination', clickable: true }}
-                className='group h-full w-[1000px] absolute top-[50px] left-[0px]'
+                pagination={{ clickable: true }}
+                className='h-full w-[1000px] relative'
             >
                 {data.map((item, index) => (
                     <SwiperSlide key={index}>
                         <EshopProduct
                             title={item.title}
                             gb={item.gb}
-                            details = {<EshopProductDetails img={item.img} price={item.price} monthlyPrice={item.monthlyPrice}/>}
+                            img={item.img}
+                            price={item.price}
+                            monthlyPrice={item.monthlyPrice}
                         />
                     </SwiperSlide>
                 ))}
             </Swiper>
 
-            <div className="my-custom-pagination mt-4 flex justify-center gap-2 absolute z-[100] bottom-10 left-1/2 transform -translate-x-1/2" />
+            <style>
+                {`
+                .swiper-pagination-bullet {
+                    background-color: #ccc;
+                    width: 10px;
+                    height: 10px;
+                    margin: 0 4px;
+                    border-radius: 9999px;
+                }
+                .swiper-pagination-bullet-active {
+                    background-color: #f04d4d;
+                }
+                `}
+            </style>
         </div>
     );
 }
